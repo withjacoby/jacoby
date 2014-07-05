@@ -6,11 +6,13 @@
     "Ben Word <ben@benword.com>"
   ],
   "license": "MIT",
-  "private": true,
   "ignore": [
     "**/.*",
     "node_modules",
-    "assets/vendor"
+    "assets/vendor",
+    "bower_components",
+    "test",
+    "tests"
   ],
   "dependencies": {
     "modernizr": "2.8.2",
